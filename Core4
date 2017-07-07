@@ -1,1 +1,10 @@
-
+<!DOCTYPE html>
+<html>
+<body>
+<ol>Core4:</ol>
+<li>1. Loops</li>
+    <p>A loop is a command that allows you to repeat the following commands indented under it.  A python syntax of a loop could be...</p>
+<li>2. Variables</li>
+    <p>A variable is a phrase or word that can be used to replace a funciton, number, or command.  A python syntax of a variable could be "var" which could be defined to mean anything by entering "def var():" and then whatever the variable is meant to denote.</p>
+<li>3. Conditionals</li>
+    <p>
