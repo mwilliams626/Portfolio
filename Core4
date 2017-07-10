@@ -7,4 +7,8 @@
 <li>2. Variables</li>
     <p>A variable is a phrase or word that can be used to replace a funciton, number, or command.  A python syntax of a variable could be "var" which could be defined to mean anything by entering "def var():" and then whatever the variable is meant to denote.</p>
 <li>3. Conditionals</li>
-    <p>
+    <p>Statements that allow you to set certain commands as an effect of another command. A python syntax of a conditional could be "'when'...(perform)..."</p>
+<li>4. Functions</li>
+    <p>A function is a term that allows you to perform a certain procedure on command. A python syntax of a funtion could be "'def Begin='..."</p>
+</body>    
+</html>
