@@ -2,123 +2,6 @@
 <html>
   <body>
     <style>
-body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-</style>
-</head>
-<body>
-
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#About">About</a>
-    <a href="#Services">Services</a>
-    <a href="#Clients">Clients</a>
-    <a href="#Contact">Contact</a>
-  </div>
-</div>
-  
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
-    <style>
-body {margin:0;}
-
-.navbar {
-  overflow: hidden;
-  background-color: #558000;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar.active a, .navbar a:hover {
-    background-color: #ff8080;
-}
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
-}
-</style>
-</head>
-
-  
-  
-  
-<body background="code.jpg">
-
-
 WrapAll {
     position:absolute;
     top:0;
@@ -128,16 +11,28 @@ WrapAll {
     overflow:hidden;
 }
 <div class="navbar">
-  <a href="https://mwilliams626.github.io/Portfolio/AboutMe.html">Home</a>
-  <a href="#Projects">Projects</a>
-  <a href="https://mwilliams626.github.io/Portfolio/Core4.html">Core 4</a>
-  <a href="#Photo Album">Photo Album</a>
+  <a href="#page1">Home</a>
+  <a href="#page2">About Makayla</a>
+  <a href="#page3">Projects</a>
+  <a href="#page4">Core 4</a>
+  <a href="#page5">Photo Album</a>
 </div>
-    <body style="background-color:IndianRed">
-    <h1 style="font-family:serif;""text-align:center;">Makayla Williams</h1>
-    <h2 style="color:DarkRed;">Girls Who Code: BSA</h2>
-    <h2 style="color:DarkRed;">makayla.williams2014@gmail.com</h2>
-      <h2 style="font-family:serif;""text-align:center;">
+    <div id="page1" class="page">
+        <div class="page-content">
+            <h1 style="font-family:serif;""text-align:center;""color:Cornsilk;">Makayla Williams</h1>
+            <h2 style="color:Cornsilk;""text-align:center;">Girls Who Code: BSA</h2>
+            <h2 style="color:Cornsilk;""text-align:center;">makayla.williams2014@gmail.com</h2>
+        </div>
+              #mydiv
+  {
+   background-image:url('code.jpg');
+   background-repeat:no-repeat;
+   background-position:right top;
+   background-attachment:fixed;
+   height:1000px;
+   width:100%;
+  }
+    </div>
         <h3 style="font-family:cursive;""color:Cornsilk;"><i>Fun Facts</i></h3>
       <ol style="font-family:courier;""color:Cornsilk;">Education:
       <li style="color:Cornsilk;">McKinley Technology HS:</li>
